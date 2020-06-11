@@ -1,0 +1,193 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+.header {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, 
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.664) 69%,
+    rgb(0, 0, 0) 94%,
+    rgb(0, 0, 0) 100%,
+    rgb(0, 0, 0) 100%) , url('./gymTemplate-img/girl-3253532_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-bar {
+    width: 100vw;
+    height: 6vh;
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+    padding-left: 40%;
+    position: fixed;
+}
+.nav-bar-logo {
+    position: absolute;
+    top:15%;
+    left: 40px;
+}
+.nav-bar-links {
+    width: 100vw;
+    font-size: 15px; 
+    padding: 15px 15px;
+}
+.nav-bar-links a{
+    padding: 2vw;
+    padding: 20px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+.links:hover{
+    color:tomato;
+}
+.sp{
+    color: tomato;
+}
+.nav-bar-icons{
+    position: absolute;
+    top:15%;
+    left:85%;
+    font-size: 21px;
+}
+.nav-bar-icons i{
+    padding: 0 10px;
+}
+
+
+.header-box{
+    text-align: center;
+    position: relative;
+    top:30%;
+}
+.header-box-title-1, .header-box-title-2{
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.header-box-title-2{
+    padding-bottom: 40px;
+}
+.header-box-p{
+    word-spacing: 2px;
+    color: rgb(115, 116, 116);
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.header-box-btn{
+    text-decoration: none;
+    font-size: 13px;
+    padding: 9px 20px;
+}
+
+.header-box-btn-2{
+    border: 1.5px solid rgb(182, 44, 19);
+    color: rgb(182, 44, 19);
+    border-radius: 3px;
+    padding:9px 20px;
+    margin-left: 20px;
+}
+/* header End*/
+
+.main-section{
+    height: 50vh;
+    width: 100vw;
+    background: #141516;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main-section-box-1{
+    height: 50vh;
+    width: 50.9vw;
+    padding-left: 15vw;
+    padding-top: 10vh;
+    float: left;
+
+}
+.main-section-h1{
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+.main-section-span{
+    padding-right: 100px;
+    font-weight: 100;
+    font-size: large;
+}
+
+.main-section-p{
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgb(138, 137, 137);
+    font-weight: 100;
+    padding-bottom: 35px;
+}
+.main-section-btn{
+    background: rgb(250, 62, 14);
+    padding: 13px 110px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+/*
+     <div class="main-section-box2">
+                <h1 class="box2-h1">Working hours</h1>
+                <span class="span-1">sunday: closer</span>
+                <span class="span-2">Monday-Friday</span>
+                <span class="span-3">7:00 AM - 10:00 PM</span>
+                <span class="span4">6:00 AM - 4:00PM</span>
+            </div>
+*/
+
+.main-section-box-2{
+    margin-top: 12vh;
+    float: left;
+    width: 40.9vw;
+    color: black;
+    height: 27vh;
+    border-left: 2px solid rgba(59, 59, 59, 0.5);
+
+}
+.box2-h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.span-1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+
+}
+.span-2{
+    padding-bottom: 3px;
+}
+.span-3{
+    color: rgb(138, 137, 137);
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.span-4{
+    padding-bottom: 3px;
+}
+.span-5{
+    color: rgb(138, 137, 137);
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.kids{
+    display: block;
+    padding-left: 60px;
+}
+
+/* main section End*/
